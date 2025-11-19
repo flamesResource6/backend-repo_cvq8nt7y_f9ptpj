@@ -1,0 +1,25 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [145] using StatReload
+INFO:     Started server process [147]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:57406 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:57416 - "GET /api/suggestions?mode=daily&count=3 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:57422 - "GET /api/settings HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:57416 - "GET /api/suggestions?mode=daily&count=3 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:57422 - "GET /api/settings HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:56684 - "GET /api/settings HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:56698 - "GET /api/suggestions?mode=daily&count=3 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:56684 - "GET /api/settings HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:56698 - "GET /api/suggestions?mode=daily&count=3 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:56698 - "GET /api/suggestions?mode=undefined&count=undefined HTTP/1.1" 422 Unprocessable Content
+INFO:     172.20.0.1:53700 - "GET /api/suggestions?mode=daily&count=3 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:53702 - "GET /api/settings HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:53700 - "GET /api/suggestions?mode=daily&count=3 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:53702 - "GET /api/settings HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:37592 - "GET /api/settings HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:37598 - "GET /api/suggestions?mode=daily&count=3 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:37592 - "GET /api/settings HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:37598 - "GET /api/suggestions?mode=daily&count=3 HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:37592 - "GET /api/suggestions?mode=undefined&count=undefined HTTP/1.1" 422 Unprocessable Content
